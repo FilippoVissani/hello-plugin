@@ -1,0 +1,15 @@
+name: my first workflow attempt
+
+'on':
+  push:
+
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo ciao
+  another-job:
+    runs-on: windows-latest
+    steps:
+      - shell: bash
+        run: echo 'sono windows :('
