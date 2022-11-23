@@ -2,6 +2,7 @@ name: my first workflow attempt
 
 'on':
   push:
+  workflow_dispatch:
 
 jobs:
   my-job:
@@ -12,4 +13,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - shell: bash
-        run: echo 'sono windows :('
+        run: |
+          echo this is
+          echo a multiline run step
+      - run: echo end
