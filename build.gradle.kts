@@ -3,7 +3,7 @@ plugins {
     alias(libs.plugins.kotlin.jvm)
     alias(libs.plugins.gitSemVer)
     id("com.gradle.plugin-publish") version "1.0.0"
-    id("org.danilopianini.gradle-kotlin-qa") version "0.27.0"
+    id("org.danilopianini.gradle-kotlin-qa") version "0.47.0"
     alias(libs.plugins.dokka)
     signing
     `maven-publish`
