@@ -2,7 +2,7 @@ plugins {
     `java-gradle-plugin` // Injects the plugin classpath into the tests
     alias(libs.plugins.kotlin.jvm)
     alias(libs.plugins.gitSemVer)
-    id("com.gradle.plugin-publish") version "1.0.0"
+    id("com.gradle.plugin-publish") version "1.1.0"
     id("org.danilopianini.gradle-kotlin-qa") version "0.27.0"
     alias(libs.plugins.dokka)
     signing
